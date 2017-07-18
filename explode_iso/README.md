@@ -91,3 +91,12 @@ FCFA42FF8146BD65B49F34DB98C8B980.danger -> bace3fcf-1344-4ea7-801d-d718d8be7823
 result.json
 
 ```
+Running file against the directory shows the e_iso objects embedded in the ISO image were a Word 2007+ document and a Windows PE32 file.
+
+```
+$ file bace3fcf-1344-4ea7-801d-d718d8be7823/*
+...
+bace3fcf-1344-4ea7-801d-d718d8be7823/27a27762-1e6e-419f-86c8-45c1f02933fa:    Microsoft Word 2007+
+bace3fcf-1344-4ea7-801d-d718d8be7823/b0d5a5ab-cd19-4e64-9ca1-6f06b9587171:    PE32 executable (GUI) Intel 80386, for MS Windows
+...
+```
