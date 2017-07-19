@@ -103,3 +103,12 @@ rule type_is_dotnet
         type_is_mz and $lib and $func
 }
 ```
+
+Sample Output with Updated Input Flags
+```
+    "Input_Flags": [
+      ...
+      "yr:malicious_netguids",
+      ...
+    ],
+```
