@@ -18,7 +18,7 @@ def _run(self, scanObject, result, depth, args):
 	vt_api_key = "YOUR KEY GOES HERE"
 ```
 
-* Modify dispatch.yara to include the module 
+* Modify dispatch.yara to include the module. You can simply add SCAN_VIRUSTOTAL to the scan_modules variable for any file type you want to look up
 ```
 rule type_is_mz
 {
