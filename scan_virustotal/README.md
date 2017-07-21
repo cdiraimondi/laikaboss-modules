@@ -1,7 +1,7 @@
 scan_virustotal.py
 ================
 
-This module queries the Virustotal API by MD5 to retrieve a scan report. 
+This module uses the Virustotal API to retrieve a scan report by MD5 hash. 
 
 **Flags Set:** s_virustotal:malicious
 
