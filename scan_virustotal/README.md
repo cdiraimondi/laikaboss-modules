@@ -29,8 +29,6 @@ rule type_is_mz
         uint16(0) == 0x5a4d
         and not ext_sourceModule contains "META_PE"
 }
-
-
 ```
 Testing
 ---
