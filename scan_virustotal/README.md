@@ -32,7 +32,6 @@ rule type_is_mz
 
 
 ```
-
 Testing
 ---
 You can test this LaikaBOSS module by using laika.py and the command line switch -m. 
@@ -87,6 +86,13 @@ Sample output
 		"update": "20170721"
 	  },
 
+```
+If the sample was not found on Virustotal the module output will look like:
+
+```
+"SCAN_VIRUSTOTAL": {
+  "Results": "Unknown File"
+},
 ```
 
 Sample Flag Output
