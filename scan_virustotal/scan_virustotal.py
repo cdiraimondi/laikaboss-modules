@@ -16,7 +16,6 @@
 from laikaboss.objectmodel import ExternalVars, ModuleObject, ScanError
 from laikaboss.si_module import SI_MODULE
 from laikaboss.util import get_option
-import logging
 import hashlib
 import requests
 
